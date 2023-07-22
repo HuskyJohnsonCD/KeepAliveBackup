@@ -6,7 +6,7 @@ on:
 jobs:
   Register:
     runs-on: ubuntu-latest
-    if: ${{ github.event.repository.private }}
+    # if: ${{ github.event.repository.private }}
 
     steps:
       - name: Checkout code
