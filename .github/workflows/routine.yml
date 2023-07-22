@@ -46,7 +46,7 @@ jobs:
 
   Invoke:
     runs-on: ubuntu-latest
-    if: ${{ github.event.repository.private }}
+    # if: ${{ github.event.repository.private }}
     # needs: Random
     # if: needs.Random.outputs.runnable == 'true'
 
